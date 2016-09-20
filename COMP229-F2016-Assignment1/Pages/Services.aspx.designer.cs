@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP229_F2016_Assignment1
+namespace COMP229_F2016_Assignment1.Pages
 {
 
 
-    public partial class Default1
+    public partial class Services
     {
     }
 }

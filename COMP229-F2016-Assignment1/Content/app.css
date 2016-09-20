@@ -1,0 +1,46 @@
+﻿body {
+}
+
+.navbar-custom {
+    color: #000;
+    background-color: #229491;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #00ffff;
+   text-shadow:1px 1px 1px #000;
+}
+.navbar-custom .navbar-nav > .active > a
+{
+           color: #f572ae;
+           background-color: #228185;
+        text-shadow:1px 1px 1px #000;
+}
+.navbar-custom .navbar-nav > li > a:hover
+{
+           color: #fec303;
+    background-color: #228491;
+        text-shadow:1px 1px 1px #000;
+}
+/* title */
+.navbar-custom .navbar-brand {
+        color: #fec303;
+        text-shadow:2px 2px 2px #000;
+
+
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+        color: #000;
+    text-shadow:2px 2px 2px #00ffff;
+
+}
+
+.fa{
+            color: #f2f0f0;
+        text-shadow:2px 2px 2px #000;
+}
+.fa:hover{
+            color: #f572ae;
+        text-shadow:2px 2px 2px #000;
+}

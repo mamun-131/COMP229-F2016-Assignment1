@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_F2016_Assignment1.Site" %>
+
+<!DOCTYPE html>
+<!-- Name: Md Mamunur Rahman -->
+<!-- ID: 300872772 -->
+<!-- Date: Sep 20, 2016 -->
+<!-- Default.aspx file -->
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content=" width=device-width, initial-scale=1" />
+    <title>Profile</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../Default.aspx">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                     <li id="Home" runat="server"><a href="../Default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                     <li id="Services" runat="server"><a href="../Pages/Services.aspx"><i class="fa fa-cog fa-lg" aria-hidden="true"></i> Services</a></li>
+                     <li id="Biography" runat="server"><a href="../Pages/Biography.aspx"><i class="fa fa-info fa-lg" aria-hidden="true"></i> Biography</a></li>
+                     <li id="Projects" runat="server"><a href="../Pages/Projects.aspx"><i class="fa fa-cubes fa-lg" aria-hidden="true"></i> Projects</a></li>
+                     <li id="Contact" runat="server"><a href="../Pages/Contact.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i> Contact</a></li>
+
+                   <!-- <li><a href="../Default.aspx">Home</a></li>
+                    <li><a href="../Pages/Products.aspx">Products</a></li>
+                    <li><a href="../Pages/Services.aspx">Services</a></li>
+                    <li><a href="../Pages/About.aspx">About Us</a></li>
+                    <li><a href="../Pages/Contact.aspx">Contact</a></li> -->
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-adjust fa-lg" aria-hidden="true"></i> Others <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Linkdin</a></li>
+                            <li><a href="#">Face Book</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+
+</body>
+</html>
