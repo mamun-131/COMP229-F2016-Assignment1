@@ -1,14 +1,18 @@
 ﻿body {
+
 }
 
 .navbar-custom {
     color: #000;
     background-color: #229491;
+           font-family:Quicksand;
+        font-weight: lighter;
 }
 
 .navbar-custom .navbar-nav > li > a {
     color: #00ffff;
    text-shadow:1px 1px 1px #000;
+
 }
 .navbar-custom .navbar-nav > .active > a
 {
@@ -43,4 +47,8 @@
 .fa:hover{
             color: #f572ae;
         text-shadow:2px 2px 2px #000;
+}
+
+ .dropdown-menu  {
+    background-color: red;
 }

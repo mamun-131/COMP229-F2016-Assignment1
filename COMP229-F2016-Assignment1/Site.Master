@@ -41,11 +41,11 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                     <li id="Home" runat="server"><a href="../default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
-                     <li id="Services" runat="server"><a href="../Pages/Services.aspx"><i class="fa fa-cog fa-lg" aria-hidden="true"></i> Services</a></li>
-                     <li id="Biography" runat="server"><a href="../Pages/Biography.aspx"><i class="fa fa-info fa-lg" aria-hidden="true"></i> Biography</a></li>
-                     <li id="Projects" runat="server"><a href="../Pages/Projects.aspx"><i class="fa fa-cubes fa-lg" aria-hidden="true"></i> Projects</a></li>
-                     <li id="Contact" runat="server"><a href="../Pages/Contact.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i> Contact</a></li>
+                     <li id="Home" runat="server"><a href="default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                     <li id="Services" runat="server"><a href="Services.aspx"><i class="fa fa-cog fa-lg" aria-hidden="true"></i> Services</a></li>
+                     <li id="Biography" runat="server"><a href="Biography.aspx"><i class="fa fa-info fa-lg" aria-hidden="true"></i> Biography</a></li>
+                     <li id="Projects" runat="server"><a href="Projects.aspx"><i class="fa fa-cubes fa-lg" aria-hidden="true"></i> Projects</a></li>
+                     <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i> Contact</a></li>
 
                    <!-- <li><a href="../Default.aspx">Home</a></li>
                     <li><a href="../Pages/Products.aspx">Products</a></li>
