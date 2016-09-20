@@ -33,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../Default.aspx">Brand</a>
+                <a class="navbar-brand" href="../default.aspx">Brand</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,7 +41,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                     <li id="Home" runat="server"><a href="../Default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                     <li id="Home" runat="server"><a href="../default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
                      <li id="Services" runat="server"><a href="../Pages/Services.aspx"><i class="fa fa-cog fa-lg" aria-hidden="true"></i> Services</a></li>
                      <li id="Biography" runat="server"><a href="../Pages/Biography.aspx"><i class="fa fa-info fa-lg" aria-hidden="true"></i> Biography</a></li>
                      <li id="Projects" runat="server"><a href="../Pages/Projects.aspx"><i class="fa fa-cubes fa-lg" aria-hidden="true"></i> Projects</a></li>
