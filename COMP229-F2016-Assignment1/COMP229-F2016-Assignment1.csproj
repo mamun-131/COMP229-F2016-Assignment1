@@ -121,8 +121,6 @@
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Properties\PublishProfiles\mamun-porfolio %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\mamun-porfolio.pubxml" />
     <None Include="Properties\PublishProfiles\mamun-portfolio.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
