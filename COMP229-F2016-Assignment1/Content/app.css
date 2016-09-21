@@ -53,12 +53,22 @@
 
   background-color: #229491;
 
-        color: #00ffff;
+        color: #25d117;
    text-shadow:1px 1px 1px #000;
+}
+.navbar.navbar-custom .dropdown-menu > .active{
+     background-color: #228491;
 }
 .navbar.navbar-custom .dropdown-menu > li > a  {
 
-        color: #00ffff;
+        color: #25d117;
    text-shadow:1px 1px 1px #000;
+
+}
+.navbar.navbar-custom .dropdown-menu > li > a:hover  {
+
+           color: #ff6f03;
+    background-color: #228491;
+        text-shadow:1px 1px 1px #000;
 
 }
