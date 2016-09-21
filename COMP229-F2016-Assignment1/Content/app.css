@@ -1,40 +1,49 @@
 ﻿body {
 
 }
+.navbar{
+  background: #228491;  
 
+}
 
-.navbar-custom {
+.navbar .navbar-default  {
     color: #000;
     background-color: #228491;
 
 }
 
-.navbar-custom .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
     color: #00ffff;
    text-shadow:1px 1px 1px #000;
-
+      background-color: #228491;
 }
-.navbar-custom .navbar-nav > .active > a
+ .navbar-default .navbar-nav > .active > a
 {
            color: #f572ae;
-           background-color: #486972;
+           background: #486972;
         text-shadow:1px 1px 1px #000;
 }
-.navbar-custom .navbar-nav > li > a:hover
+  .navbar-default .navbar-nav > .active > a:hover
+{
+           color: #f572ae;
+           background: #487972;
+        text-shadow:1px 1px 1px #000;
+}
+.navbar-default .navbar-nav > li > a:hover
 {
            color: #fec303;
     background-color: #487972;
         text-shadow:1px 1px 1px #000;
 }
 /* title */
-.navbar-custom .navbar-brand {
+.navbar-default .navbar-brand {
         color: #fec303;
         text-shadow:2px 2px 2px #000;
 
 
 }
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
         color: #000;
     text-shadow:2px 2px 2px #00ffff;
 
@@ -48,24 +57,24 @@
             color: #f572ae;
         text-shadow:2px 2px 2px #000;
 }
-/*.navbar.navbar-custom .dropdown-menu {
+/*.navbar.navbar-default .dropdown-menu {
 
   background-color: #229491;
 
         color: #25d117;
    text-shadow:1px 1px 1px #000;
 }
-.navbar.navbar-custom .dropdown-menu > .open{
+.navbar.navbar-default .dropdown-menu > .open{
      background-color: #228491;
 }
-.navbar.navbar-custom .dropdown-menu > li > a  {
+.navbar.navbar-default .dropdown-menu > li > a  {
 
         color: #25d117;
    text-shadow:1px 1px 1px #000;
 
 }*/
-.navbar.navbar-custom .dropdown-menu > li > a:hover,
-.navbar.navbar-custom .dropdown-menu > li > a:focus {
+.navbar.navbar-default .dropdown-menu > li > a:hover,
+.navbar.navbar-default .dropdown-menu > li > a:focus {
 
            color: #000000;
     background-color: #228491;
@@ -73,9 +82,9 @@
  
 
 }
-.navbar.navbar-custom .dropdown-menu,
-.navbar.navbar-custom .dropdown-menu > li,
-.navbar.navbar-custom .dropdown-menu > li > a
+.navbar.navbar-default .dropdown-menu,
+.navbar.navbar-default .dropdown-menu > li,
+.navbar.navbar-default .dropdown-menu > li > a
  {
   background-color: #229491;
   color: #eef9fa;
@@ -83,9 +92,9 @@
          
 }
 
-.navbar.navbar-custom .navbar-nav li.dropdown.open > .dropdown-toggle,
-.navbar.navbar-custom .navbar-nav li.dropdown.active > .dropdown-toggle,
-.navbar.navbar-custom .navbar-nav li.dropdown.open.active > .dropdown-toggle {
+.navbar.navbar-default .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.open.active > .dropdown-toggle {
   background: #229491;
   color: #eef9fa;
 }
