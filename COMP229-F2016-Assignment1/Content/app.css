@@ -2,11 +2,11 @@
 
 }
 
+
 .navbar-custom {
     color: #000;
     background-color: #229491;
-           font-family:Quicksand;
-        font-weight: lighter;
+
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -49,6 +49,16 @@
         text-shadow:2px 2px 2px #000;
 }
 
- .dropdown-menu  {
-    background-color: red;
+.navbar.navbar-custom .dropdown-menu {
+
+  background-color: #229491;
+
+        color: #00ffff;
+   text-shadow:1px 1px 1px #000;
+}
+.navbar.navbar-custom .dropdown-menu > li > a  {
+
+        color: #00ffff;
+   text-shadow:1px 1px 1px #000;
+
 }
