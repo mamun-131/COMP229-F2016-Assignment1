@@ -3,13 +3,15 @@
 }
 .navbar{
   background: #228491;  
+  position:fixed;
+  width:100%;
 
 }
 
 .navbar .navbar-default  {
     color: #000;
     background-color: #228491;
-
+    position: fixed;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -44,10 +46,12 @@
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-        color: #000;
-    text-shadow:2px 2px 2px #00ffff;
+        color: #f572ae;
+    text-shadow:1px 1px 1px #00ffff;
 
 }
+
+
 
 .fa{
             color: #f2f0f0;
@@ -98,14 +102,23 @@
   background: #229491;
   color: #eef9fa;
 }
-#wrapper, .col-xs-2 {
+
+#wrapper{
+    padding-bottom:100px;
+     
+}
+ .col-xs-1 {
     padding-left:1px;
+
+  
+
 }
 #sidebar-wrapper {
 
     width: 180px;
     margin-top:10px;
-    
+    position: fixed;
+    padding-top:50px;
 }
 
 #sidebar-wrapper ul {
@@ -141,14 +154,14 @@
         background: linear-gradient(to top, #898484, #f6a005);
         /* background: -webkit-gradient(linear, right top, left top, color-stop(0%,#898484), color-stop(100%,#f6a005));
     background: linear-gradient(to top, #898484, #f6a005);*/
-        background: #f6a005;
-        background: -webkit-gradient(linear, left top, left bottom, from(#f6a005), to(#898484));
-        background: -webkit-linear-gradient(#f6a005, #898484);
-        background: -moz-linear-gradient(top, #f6a005,#898484);
-        background: -ms-linear-gradient(#f6a005, #898484);
-        background: -o-linear-gradient(#f6a005, #898484);
-        background: linear-gradient(#f6a005, #f6a005);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6a005', endColorstr='#898484');
+        background:  #f6a005;
+        background: -webkit-gradient(linear, left top, left bottom, from( #f6a005), to(#898484));
+        background: -webkit-linear-gradient( #f6a005, #898484);
+        background: -moz-linear-gradient(top,  #f6a005,#898484);
+        background: -ms-linear-gradient( #f6a005, #898484);
+        background: -o-linear-gradient( #f6a005, #898484);
+        background: linear-gradient( #f6a005,  #487972);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=' #f6a005', endColorstr='#898484');
         zoom: 1;
            -webkit-transition: padding-left 1s;
             transition:padding-left 1s;
@@ -162,3 +175,21 @@ padding-left: 40px;
     }
 
 
+#page-content-wrapper{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+/*logo decoration*/
+.logo {
+    float: left;
+    height: 100%;
+    
+    
+    color:black;
+  
+}
+/*nav bar brand decoration*/
+.allabout{
+ font-size: 35px;  
+   text-shadow:  3px 3px #000;
+}

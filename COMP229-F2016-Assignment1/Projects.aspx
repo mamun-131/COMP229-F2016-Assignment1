@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
         <div class="container">
         <div class="row">
-            <div class="col-md-offset-1 col-md-4">
+            <div class="col-md-offset-1 col-md-11">
                 <h1>Projects</h1>
             </div>
         </div>
