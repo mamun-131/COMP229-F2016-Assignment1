@@ -72,10 +72,10 @@
         text-shadow:1px 1px 1px #000;
 
 }
-.navbar.navbar-custom .dropdown-menu > .active,
-.navbar.navbar-custom .dropdown-menu > .active > a,
-.navbar.navbar-custom .dropdown-menu > .active > a:hover,
-.navbar.navbar-custom .dropdown-menu > .active > a:focus {
+.navbar.navbar-custom .dropdown-menu > li,
+.navbar.navbar-custom .dropdown-menu > li > a,
+.navbar.navbar-custom .dropdown-menu > li > a:hover,
+.navbar.navbar-custom .dropdown-menu > li > a:focus {
   background-color: #486972;
   color: #eef9fa;
 }
