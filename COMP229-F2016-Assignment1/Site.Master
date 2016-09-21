@@ -62,7 +62,8 @@
                             <li><a href="#">Face Book</a></li>
                             <li><a href="#">GitHub</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Flickr</a></li>
+                             <li><a href="#">Pixoto</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -73,20 +74,25 @@
     </nav>
 
          <!-- Sidebar -->
-        <div id="sidebar-wrapper" div class="col-xs-2">
-            <ul class="sidebar-nav">
+   
+
+        <div id="sidebar-wrapper" class="col-xs-2">
+            <ul >
                
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#">My_Linkdin</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="#">My_GitHub</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#">My_FaceBook</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">My_Flickr</a>
+                </li>
+                <li>
+                    <a href="#">My_Pixoto</a>
                 </li>
             </ul>
         </div>
