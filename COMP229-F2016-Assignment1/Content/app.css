@@ -56,7 +56,7 @@
         color: #25d117;
    text-shadow:1px 1px 1px #000;
 }
-.navbar.navbar-custom .dropdown-menu > .active{
+.navbar.navbar-custom .dropdown-menu > .open{
      background-color: #228491;
 }
 .navbar.navbar-custom .dropdown-menu > li > a  {
@@ -71,4 +71,11 @@
     background-color: #228491;
         text-shadow:1px 1px 1px #000;
 
+}
+.navbar.navbar-custom .dropdown-menu > .active,
+.navbar.navbar-custom .dropdown-menu > .active > a,
+.navbar.navbar-custom .dropdown-menu > .active > a:hover,
+.navbar.navbar-custom .dropdown-menu > .active > a:focus {
+  background-color: #486972;
+  color: #eef9fa;
 }
