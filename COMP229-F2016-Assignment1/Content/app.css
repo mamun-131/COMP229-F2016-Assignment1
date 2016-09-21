@@ -117,14 +117,14 @@
         font-size: 14px;
         font-family: Tahoma;
         text-shadow:1px 1px 1px #808080;
-        width: 90px;
+        width: 130px;
         padding-top: 10px;
         padding-bottom: 10px;
         -moz-border-radius: 0px 20px 20px 0px;
         -webkit-border-radius: 0px 20px 20px 0px;
         border-radius: 0px 20px 20px 0px;
         padding-left: 1px;
-        margin-left: 1px;
+        
         box-shadow: 5px 0px 10px #939393;
         -webkit-box-shadow: 5px 0px 10px #939393;
         -moz-box-shadow: 5px 0px 10px #939393;
@@ -149,7 +149,7 @@
     }
 #sidebar-wrapper ul li:hover {
 
-padding-left: 120px;
+padding-left: 40px;
     }
 
 
