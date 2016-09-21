@@ -23,6 +23,7 @@
     <link href="Content/app.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="wrapper">
     <nav class="navbar navbar-custom">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,12 +72,47 @@
         <!-- /.container-fluid -->
     </nav>
 
+         <!-- Sidebar -->
+        <div id="sidebar-wrapper" div class="col-xs-2">
+            <ul class="sidebar-nav">
+               
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+
+
+
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" >
+            <div class="container-fluid">
+
+
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
+
+                </div>
+            </div>
+          <!-- Page Content -->
+
+        </div> <!--Wrapper -->
 
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>
