@@ -26,15 +26,19 @@ namespace COMP229_F2016_Assignment1.Pages
             framework = "ASP.NET MVC 4.5";
             database = "SQL SERVER";
 
-            addProject(projectName,projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+            addProject(1,projectName,projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
-            
+
+            addProject(2,projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+
+
+            addProject(3,projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
 
 
         }
 
-        private void addProject(String projectName, String projectImage,String projectUrl,String gitHubUrl,String webSiteUrl,
+        private void addProject(int index, String projectName, String projectImage,String projectUrl,String gitHubUrl,String webSiteUrl,
             String projectDetail, String programingLanguage, String framework, String database) {
 
             //Creae the image button
@@ -54,8 +58,8 @@ namespace COMP229_F2016_Assignment1.Pages
 
                 OnClientClick = "window.open('" + gitHubUrl + "')",
                 Text = "  GitHub  Link  ",
-                ID = "gitHubLink",
-                CssClass = "btn btn-primary", BorderWidth = 5 ,BorderStyle = BorderStyle.None
+                ID = "gitHubLink" + index,
+                CssClass = "btn btn-primary btn-lg btn-block responsive-width", BorderWidth = 5 ,BorderStyle = BorderStyle.None
                
             };
 
@@ -66,8 +70,8 @@ namespace COMP229_F2016_Assignment1.Pages
 
                 OnClientClick = "window.open('" + webSiteUrl + "')",
                 Text = "Website Link",
-                ID = "webSiteLink",
-                CssClass = "btn btn-primary"
+                ID = "webSiteLink" + index,
+                CssClass = "btn btn-primary btn-lg btn-block responsive-width"
             };
 
             //Add an onClick event
@@ -80,23 +84,22 @@ namespace COMP229_F2016_Assignment1.Pages
             TableRow row2 = new TableRow();
 
             //Create 6 cells for Row row1
-            TableCell row1_c1 = new TableCell { Text = "<b>" + projectName + "</b>", Width = 200,
+            TableCell row1_c1 = new TableCell { Text = "<b>" + projectName + "</b>", 
                 HorizontalAlign = HorizontalAlign.Center, ForeColor = System.Drawing.Color.DarkRed
             };
             TableCell row1_c2 = new TableCell
             {
 
                 Text = "<b>Project Detail </b>",
-                HorizontalAlign = HorizontalAlign.Center,
-                Width = 250
-            };
-            TableCell row1_c3 = new TableCell { Text = "<b>Languages</b> ", Width = 150,
                 HorizontalAlign = HorizontalAlign.Center
             };
-            TableCell row1_c4 = new TableCell { Text = "<b>Framework </b>", Width = 150,
+            TableCell row1_c3 = new TableCell { Text = "<b>Languages</b> ",
                 HorizontalAlign = HorizontalAlign.Center
             };
-            TableCell row1_c5 = new TableCell { Text = "<b>Data Base</b> ", Width = 150,
+            TableCell row1_c4 = new TableCell { Text = "<b>Framework </b>",
+                HorizontalAlign = HorizontalAlign.Center
+            };
+            TableCell row1_c5 = new TableCell { Text = "<b>Database</b> ",
                 HorizontalAlign = HorizontalAlign.Center
             };
             TableCell row1_c6 = new TableCell {
@@ -105,30 +108,26 @@ namespace COMP229_F2016_Assignment1.Pages
 
 
             //Create 6 cells for Row row2
-            TableCell row2_c1 = new TableCell { Width = 200 };
+            TableCell row2_c1 = new TableCell {};
             TableCell row2_c2 = new TableCell
             {
                 Text = projectDetail ,
-                HorizontalAlign = HorizontalAlign.Justify,
-                Width = 250
+                HorizontalAlign = HorizontalAlign.Justify
             };
             TableCell row2_c3 = new TableCell
             {
                 Text = programingLanguage ,
-                HorizontalAlign = HorizontalAlign.Center,
-                Width = 150
+                HorizontalAlign = HorizontalAlign.Center
             };
             TableCell row2_c4 = new TableCell
             {
                 Text = framework ,
-                HorizontalAlign = HorizontalAlign.Center,
-                Width = 150
+                HorizontalAlign = HorizontalAlign.Center
             };
             TableCell row2_c5 = new TableCell
             {
                 Text = database ,
-                HorizontalAlign = HorizontalAlign.Center,
-                Width = 150
+                HorizontalAlign = HorizontalAlign.Center
             };
             TableCell row2_c6 = new TableCell { 
                 HorizontalAlign = HorizontalAlign.Justify};
