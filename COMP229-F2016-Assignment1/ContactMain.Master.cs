@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace COMP229_F2016_Assignment1
 {
-    public partial class Site : System.Web.UI.MasterPage
+    public partial class Contact : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,13 +27,13 @@ namespace COMP229_F2016_Assignment1
                     Biography.Attributes.Add("class", "active");
                     break;
                 case "Contacts":
+                    
                     Contacts.Attributes.Add("class", "active");
                     break;
 
 
 
             }
-
         }
     }
 }

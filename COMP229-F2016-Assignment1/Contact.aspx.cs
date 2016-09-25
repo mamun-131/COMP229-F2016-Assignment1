@@ -13,5 +13,11 @@ namespace COMP229_F2016_Assignment1.Pages
         {
 
         }
+
+        protected void sendButton_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("default.aspx");
+        }
     }
 }

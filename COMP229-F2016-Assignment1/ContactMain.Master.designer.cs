@@ -10,7 +10,7 @@
 namespace COMP229_F2016_Assignment1 {
     
     
-    public partial class Site {
+    public partial class Contact {
         
         /// <summary>
         /// head control.
@@ -76,12 +76,12 @@ namespace COMP229_F2016_Assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// MainContent control.
+        /// ContactContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContactContent;
     }
 }
