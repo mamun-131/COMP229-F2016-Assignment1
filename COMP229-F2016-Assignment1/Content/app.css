@@ -208,8 +208,14 @@ padding-left: 40px;
     font-size: 1.5vw;
     }
 
-    body{
+    #page-content-wrapper{
     font-size: 1.8vw;
 
     }
+    .navbar-default .navbar-brand {
+font-size: 1.3vw;
+
+
+}
+
 }
