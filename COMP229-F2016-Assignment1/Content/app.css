@@ -204,12 +204,12 @@ padding-left: 40px;
           visibility: hidden;
 	}
         
-.responsive-width {
+    .responsive-width {
     font-size: 1.5vw;
-}
+    }
 
-body{
-font-size: 1.8vw;
+    body{
+    font-size: 1.8vw;
 
-}
+    }
 }
