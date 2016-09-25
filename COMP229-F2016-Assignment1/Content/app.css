@@ -130,7 +130,7 @@ padding-left: 40px;
 
 #page-content-wrapper {
     padding-top: 60px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-bottom: 50px;
     z-index: 3;
 }
@@ -139,6 +139,7 @@ padding-left: 40px;
     float: left;
     height: 100%;
     color: black;
+        padding-left: 10px;
    opacity: 1;
     filter: alpha(opacity=100);
 }
@@ -215,6 +216,12 @@ padding-left: 40px;
     .navbar-default .navbar-brand {
 font-size: 0.2vw;
 
+
+}
+
+    .logo {
+
+        padding-left: 2px;
 
 }
 
