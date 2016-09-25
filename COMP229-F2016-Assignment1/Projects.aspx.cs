@@ -167,8 +167,32 @@ namespace COMP229_F2016_Assignment1.Pages
             //Add table to pnlShoppingCart
             pnlProject.Controls.Add(table);
 
-
-
+            if (Request.UserAgent.Contains("Mobi") == true || Request.UserAgent.Contains("Android") == true)
+            {
+                Table tableAlt = new Table { CssClass = "table table-striped" };
+                TableRow row1rowAlt1 = new TableRow(); row1rowAlt1.Cells.Add(row1_c1);
+                TableRow row1rowAlt2 = new TableRow(); row1rowAlt2.Cells.Add(row2_c1);
+                TableRow row1rowAlt3 = new TableRow(); row1rowAlt3.Cells.Add(row1_c2);
+                TableRow row1rowAlt4 = new TableRow(); row1rowAlt4.Cells.Add(row2_c2);
+                TableRow row1rowAlt5 = new TableRow(); row1rowAlt5.Cells.Add(row1_c3);
+                TableRow row1rowAlt6 = new TableRow(); row1rowAlt6.Cells.Add(row2_c3);
+                TableRow row1rowAlt7 = new TableRow(); row1rowAlt7.Cells.Add(row1_c6);
+                TableRow row1rowAlt8 = new TableRow(); row1rowAlt8.Cells.Add(row2_c6);
+                tableAlt.Rows.Add(row1rowAlt1);
+                tableAlt.Rows.Add(row1rowAlt2);
+                tableAlt.Rows.Add(row1rowAlt3);
+                tableAlt.Rows.Add(row1rowAlt4);
+                tableAlt.Rows.Add(row1rowAlt5);
+                tableAlt.Rows.Add(row1rowAlt6);
+                tableAlt.Rows.Add(row1rowAlt7);
+                tableAlt.Rows.Add(row1rowAlt8);
+                pnlProjectAlt.Controls.Add(tableAlt);
+                
+            }
+            else
+            {
+                pnlProjectAlt.Visible.Equals(false);
+            }
 
         }
     }
