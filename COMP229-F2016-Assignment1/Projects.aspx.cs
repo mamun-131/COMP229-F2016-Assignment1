@@ -166,6 +166,10 @@ namespace COMP229_F2016_Assignment1.Pages
 
             //Add table to pnlShoppingCart
             pnlProject.Controls.Add(table);
+
+
+
+
         }
     }
 }

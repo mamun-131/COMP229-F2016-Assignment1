@@ -9,7 +9,11 @@
                     <asp:Panel ID="pnlProject" runat="server" CssClass="panel panel-default">
 
 
+    </asp:Panel> <asp:Panel ID="pnlProjectAlt" runat="server" CssClass="panel panel-default">
+
+
     </asp:Panel>
+
             </div>
         </div>
     </div>

@@ -181,6 +181,35 @@ padding-left: 40px;
 
         text-shadow: 1px 1px 1px #420505;
 }
+
+@media (max-width: 768px) {
+    #pnlProjectAlt {
+        visibility: visible;
+    }
+
+    /*navebar-brand or Application heading for smaller screen*/
+    #pnlProject {
+        position: static;
+        height:auto;
+        max-width:none;
+        max-height: 2px;
+  		border-right:0;
+        visibility: hidden;
+    }
+        #sidebar-wrapper {
+        position: static;
+        height:auto;
+        max-height: 2px;
+  		border-right:0;
+          visibility: hidden;
+	}
+        
 .responsive-width {
     font-size: 1.5vw;
+}
+
+body{
+font-size: 1.8vw;
+
+}
 }
