@@ -21,7 +21,8 @@ namespace COMP229_F2016_Assignment1.Pages
             webSiteUrl = "http://mywebshopping.azurewebsites.net";
             projectDetail = "This is an Online shopping solution, particularly for grocery shop." + 
                 "There is an addcart option and product and product catagory uploading option. "+
-                "There is a customer registration and login system to ensure protected online sales.";
+                "There is a customer registration and login system to ensure protected online sales."+
+                "Any business can use for online shopping with minimum code modification.";
             programingLanguage = "C#, CSS, HTML";
             framework = "ASP.NET MVC 4.5";
             database = "SQL SERVER";
@@ -96,12 +97,12 @@ namespace COMP229_F2016_Assignment1.Pages
             TableCell row1_c3 = new TableCell { Text = "<b>Languages</b> ",
                 HorizontalAlign = HorizontalAlign.Center
             };
-            TableCell row1_c4 = new TableCell { Text = "<b>Framework </b>",
+           /* TableCell row1_c4 = new TableCell { Text = "<b>Framework </b>",
                 HorizontalAlign = HorizontalAlign.Center
             };
             TableCell row1_c5 = new TableCell { Text = "<b>Database</b> ",
                 HorizontalAlign = HorizontalAlign.Center
-            };
+            };*/
             TableCell row1_c6 = new TableCell {
                 Text = "<b>Links </b>",
                 HorizontalAlign = HorizontalAlign.Center};
@@ -116,10 +117,10 @@ namespace COMP229_F2016_Assignment1.Pages
             };
             TableCell row2_c3 = new TableCell
             {
-                Text = programingLanguage ,
+                Text = programingLanguage + ", " + framework + ", " + database,
                 HorizontalAlign = HorizontalAlign.Center
             };
-            TableCell row2_c4 = new TableCell
+           /* TableCell row2_c4 = new TableCell
             {
                 Text = framework ,
                 HorizontalAlign = HorizontalAlign.Center
@@ -128,7 +129,7 @@ namespace COMP229_F2016_Assignment1.Pages
             {
                 Text = database ,
                 HorizontalAlign = HorizontalAlign.Center
-            };
+            };*/
             TableCell row2_c6 = new TableCell { 
                 HorizontalAlign = HorizontalAlign.Justify};
 
@@ -147,15 +148,15 @@ namespace COMP229_F2016_Assignment1.Pages
             row1.Cells.Add(row1_c1);
             row1.Cells.Add(row1_c2);
             row1.Cells.Add(row1_c3);
-            row1.Cells.Add(row1_c4);
-            row1.Cells.Add(row1_c5);
+          //  row1.Cells.Add(row1_c4);
+          //  row1.Cells.Add(row1_c5);
             row1.Cells.Add(row1_c6);
 
             row2.Cells.Add(row2_c1);
             row2.Cells.Add(row2_c2);
             row2.Cells.Add(row2_c3);
-            row2.Cells.Add(row2_c4);
-            row2.Cells.Add(row2_c5);
+          //  row2.Cells.Add(row2_c4);
+          //  row2.Cells.Add(row2_c5);
             row2.Cells.Add(row2_c6);
 
             //Add rows to table
