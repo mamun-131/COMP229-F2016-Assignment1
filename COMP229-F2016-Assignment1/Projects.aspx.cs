@@ -14,26 +14,62 @@ namespace COMP229_F2016_Assignment1.Pages
             String projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl;
             String projectDetail, programingLanguage, framework, database;
 
-            projectName = "Online Shopping";
+            projectName = "ONLINE SHOPPING";
             projectImage = "myrasona.jpg";
             projectUrl = "http://mywebshopping.azurewebsites.net";
             gitHubUrl = "http://github.com/300872772/MyShop_Template";
             webSiteUrl = "http://mywebshopping.azurewebsites.net";
             projectDetail = "This is an Online shopping solution, particularly for grocery shop." + 
-                "There is an addcart option and product and product catagory uploading option. "+
-                "There is a customer registration and login system to ensure protected online sales."+
-                "Any business can use for online shopping with minimum code modification.";
+                "There is an addcart option where customer can select prodect and add into the cart finally can submit for purchase. "+
+                "There is a customer registration and login system to ensure protected online sales. For uploading product and product catagory"+
+                " there is product uploading option restricted to admin login ctagory only."+
+                "Any business can use this solution for online shopping with minimum code modification.";
             programingLanguage = "C#, CSS, HTML";
-            framework = "ASP.NET MVC 4.5";
+            framework = "ASP.NET MVC 4.5, Bootstrap";
             database = "SQL SERVER";
 
             addProject(1,projectName,projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
+            projectName = "MOVIE BONANZA";
+            projectImage = "moviebonanza.jpg";
+            projectUrl = "https://github.com/300872772/COMP123-S2016-Assignment7";
+            gitHubUrl = "https://github.com/300872772/COMP123-S2016-Assignment7";
+            webSiteUrl = "https://github.com/300872772/COMP123-S2016-Assignment7";
+            projectDetail = "This is an online movie streaming selling solution desktop version,"+
+                " has been developed using C#.";
+            programingLanguage = "C#";
+            framework = "";
+            database = "Text coma delaminated data";
+            addProject(2, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
-            addProject(2,projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+
+            projectName = "PORTFOLIO";
+            projectImage = "personalsite.jpg";
+            projectUrl = "http://mamun-portfolio-banner-ad.azurewebsites.net";
+            gitHubUrl = "https://github.com/300872772/COMP125-Assignment4";
+            webSiteUrl = "http://mamun-portfolio-banner-ad.azurewebsites.net";
+            projectDetail = "This website is an example of dynamic responsive website developed based on Javascript & JQuery" +
+                "For making it responsive Bootstrap has been used. For animation CreatJS package has been used and" +
+                " CSS has ensured basic colorful decoration";
+            programingLanguage = "Java Script, Type Script, Jquery, CreateJS, CSS, HTML";
+            framework = "Bootstrap, Font-awesome";
+            database = "Text API";
+            addProject(3, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
 
-            addProject(3,projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+            projectName = "PHOTOGRAPHY";
+            projectImage = "photographer.jpg";
+            projectUrl = "http://photographers.azurewebsites.net";
+            gitHubUrl = "https://github.com/300872772/photographers";
+            webSiteUrl = "http://photographers.azurewebsites.net";
+            projectDetail = "This website is just for displaying my own photography. All site " +
+                "decoration is based on CSS. There is no database for photo repository handling." +
+                " This is just a raw HTML website with CSS properties.";
+            programingLanguage = "CSS, HTML";
+            framework = "";
+            database = "";
+            addProject(4, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+
 
 
 
@@ -49,7 +85,7 @@ namespace COMP229_F2016_Assignment1.Pages
                 ImageUrl = string.Format("~/Assets/{0}", projectImage),
                 // PostBackUrl = string.Format("{0}", projectUrl),
                 CssClass = "img-responsive",
-                OnClientClick = "window.open('"+ projectUrl + "')"
+                OnClientClick = "window.open('" + projectUrl + "')", Width = 400
             };
 
             //Create the gitHub link
@@ -60,7 +96,8 @@ namespace COMP229_F2016_Assignment1.Pages
                 OnClientClick = "window.open('" + gitHubUrl + "')",
                 Text = "  GitHub  Link  ",
                 ID = "gitHubLink" + index,
-                CssClass = "btn btn-primary btn-lg btn-block responsive-width", BorderWidth = 5 ,BorderStyle = BorderStyle.None
+                CssClass = "btn btn-primary btn-lg btn-block responsive-width",
+                BorderWidth = 1 ,BorderStyle = BorderStyle.None
                
             };
 
@@ -74,14 +111,19 @@ namespace COMP229_F2016_Assignment1.Pages
                 ID = "webSiteLink" + index,
                 CssClass = "btn btn-primary btn-lg btn-block responsive-width"
             };
-
+            
             //Add an onClick event
             //  lnkDelete.Click += Delete_Items;
 
 
             //Create HTML table with tow rows
-            Table table = new Table { CssClass = "table table-striped" };
-            TableRow row1 = new TableRow();
+            Table table = new Table { CssClass = "table table-bordered ",
+                BorderWidth = 4,
+                BorderStyle = BorderStyle.Solid,
+                BorderColor = System.Drawing.Color.Gray, BackColor = System.Drawing.Color.WhiteSmoke
+            };
+            
+            TableRow row1 = new TableRow { BackColor = System.Drawing.Color.LightGray };
             TableRow row2 = new TableRow();
 
             //Create 6 cells for Row row1
@@ -92,10 +134,12 @@ namespace COMP229_F2016_Assignment1.Pages
             {
 
                 Text = "<b>Project Detail </b>",
-                HorizontalAlign = HorizontalAlign.Center
+                HorizontalAlign = HorizontalAlign.Center,
+                Width = 400
             };
             TableCell row1_c3 = new TableCell { Text = "<b>Languages</b> ",
-                HorizontalAlign = HorizontalAlign.Center
+                HorizontalAlign = HorizontalAlign.Center,
+                Width = 150
             };
            /* TableCell row1_c4 = new TableCell { Text = "<b>Framework </b>",
                 HorizontalAlign = HorizontalAlign.Center
@@ -105,20 +149,23 @@ namespace COMP229_F2016_Assignment1.Pages
             };*/
             TableCell row1_c6 = new TableCell {
                 Text = "<b>Links </b>",
-                HorizontalAlign = HorizontalAlign.Center};
+                HorizontalAlign = HorizontalAlign.Center,
+                Width = 150
+            };
 
 
             //Create 6 cells for Row row2
-            TableCell row2_c1 = new TableCell {};
+            TableCell row2_c1 = new TableCell { Width = 400 };
             TableCell row2_c2 = new TableCell
             {
                 Text = projectDetail ,
-                HorizontalAlign = HorizontalAlign.Justify
+                HorizontalAlign = HorizontalAlign.Justify,
+                Width = 400
             };
             TableCell row2_c3 = new TableCell
             {
                 Text = programingLanguage + ", " + framework + ", " + database,
-                HorizontalAlign = HorizontalAlign.Center
+                HorizontalAlign = HorizontalAlign.Center, Width = 150
             };
            /* TableCell row2_c4 = new TableCell
             {
@@ -131,11 +178,13 @@ namespace COMP229_F2016_Assignment1.Pages
                 HorizontalAlign = HorizontalAlign.Center
             };*/
             TableCell row2_c6 = new TableCell { 
-                HorizontalAlign = HorizontalAlign.Justify};
+                HorizontalAlign = HorizontalAlign.Justify,
+                Width = 150
+            };
 
             //Set special controls
             Label gap = new Label();
-            gap.Text = ".......................... ";
+            gap.Text = "..................................";
             
             row2_c1.Controls.Add(btnImage);
             row2_c6.Controls.Add(gap);
@@ -169,7 +218,12 @@ namespace COMP229_F2016_Assignment1.Pages
 
             if (Request.UserAgent.Contains("Mobi") == true || Request.UserAgent.Contains("Android") == true)
             {
-                Table tableAlt = new Table { CssClass = "table table-striped" };
+                Table tableAlt = new Table
+                {  CssClass = "table table-bordered ",
+                    BorderWidth = 4,
+                    BorderStyle = BorderStyle.Solid,
+                    BorderColor = System.Drawing.Color.Gray
+                };
                 TableRow row1rowAlt1 = new TableRow(); row1rowAlt1.Cells.Add(row1_c1);
                 TableRow row1rowAlt2 = new TableRow(); row1rowAlt2.Cells.Add(row2_c1);
                 TableRow row1rowAlt3 = new TableRow(); row1rowAlt3.Cells.Add(row1_c2);
