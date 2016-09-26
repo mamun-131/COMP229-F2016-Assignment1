@@ -132,9 +132,29 @@
 
 
 </body>
-    <div class="navbar navbar-fixed-bottom">
+    <div id="footerbar" class="navbar navbar-default navbar-fixed-bottom">
+         <span id ="copyright"><small>MD MAMUNUR RAHMAN © Copyright 2014, All Rights Reserved</small></span>
         <footer>
+            <div class="col-md-12 footer">
 
+
+        <nav id="footer" class="navbar navbar-fixed-bottom">
+                     <span id ="copyright"><small>MD MAMUNUR RAHMAN © Copyright 2014, All Rights Reserved</small></span>
+            <div >  
+                <ul class="nav navbar-nav navbar-right ">
+                       
+                    <li><a href="https://www.facebook.com/md.mamunur.rahman" target="_blank"><i class="fa fa-facebook fa-lg"></i> My Facebook</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/md-mamunur-rahman-31a6375?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin fa-lg" ></i> My Linkedin</a>
+                    </li>
+                    <li><a href="https://www.flickr.com/photos/122827071@N02/" target="_blank"><i class="fa fa-flickr fa-lg"></i> My Flickr</a></li>
+                    <li><a href="http://www.pixoto.com/mamun_131" target="_blank"><i class="fa fa-pinterest-square fa-lg"></i> My Pixoto</a></li>
+          <li><a href="https://github.com/300872772" target="_blank"><i class="fa fa-github fa-lg"></i> My GitHub</a></li>
+                </ul>
+
+            </div>
+            </nav>
+                </div>
         </footer>
     </div>
 </html>
