@@ -4,24 +4,37 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-1 col-md-11">
-                <h1>Home</h1>
-                <p>Digital technologies have changed the world, and have its influence in every aspect of socioeconomic life of human being. From agriculture to rocket science, every category of human activities has got a pace and a new benchmark of success embracing digital technologies. These technologies have entered into such a deep level of socioeconomic activities and have transformed the society to such a new shape; virtually nobody can think life without it. Unfortunately, the reality is, all human-being in this Earth is not getting direct benefit out of these technologies, even in developed countries, because of the inability to access to this digital world. But, the question is why, and what are the long-term and short-term consequences of this equality?
+ <div class="jumbotron">
+      <div class="container">
+        <h1>MD MAMUNUR RAHMAN</h1>
+          <h3>Software Developer</h3>
+          <br><br>
+      <h5>An innovative and passionate Software developer. 
+          Like to play with logic, problems and different kind 
+          of alternatives of solutions...........</h5>
+          <br>
+        <p><a class="btn btn-primary btn-lg" href="Biography.aspx" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
 
-Lack of affordability and infrastructure, lack of motivation, inadequate knowledge and skills and lack of freedom is the main barrier to use these technologies. Poverty is pulling a group of people behind from these technologies as they cannot afford it. Because of business motive, infrastructures of these technologies are not available in every geographic location, especially in rural area. Many people do not get motivation to access to internet or computer because of language and cultural barrier. Besides, due to the lack of digital literacy, many people have taken them away from these technologies, who basically are not much encouraged to accept any change in their life. On the other hand, in many countries and societies, people do not enjoy real democracy and actual freedom to enrich their life and do not get access to new knowledge and facility.  
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Services</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <h2>Projects</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
 
-In this concurrent world, access to information is the key to achieve meaningful success and grab opportunities. The new term, which is called “Information Poverty”, becomes the reason for an individual’s actual poverty. In education, workplace, social engagement, business, everywhere a divide is clearly visible between individuals. The individual who has the access to these technologies gets priority and achieves higher standards of living and improved social welfare than others. If this inequality continues, we will end up with having new societies where two distinct classes will exist with two different socio economic statuses.
+      </div>
 
-Because of Globalization and Socio-economic interdependency among different individuals, organization, businesses, professions, communities, areas, markets, territories, countries, regions etc., inequality to access to digital technology is not only just an individual’s or a group of people’s  problem but also a global problem like Poverty, Global Warming, Global Financial Crisis, Racism etc. Inability to access to digital technology enhances global problems like poverty, financial crisis, racism, health issues etc. Because, all civic benefits and opportunities are transforming to be embedded with digital technology. So, who are enjoying the accessibility to this technology will suffer directly or indirectly in the long run because of absence of certain portion of people of society in uses of this technology. So, this is a global challenge to create privilege to accesses to digital technology to the next generation and to the group of individuals who are out of this facility globally. Uneven development of Internet connectivity throughout the World, some countries have fallen behind in technology, education, labor, democracy, and tourism. The global inequality also adds to the disparity of right to use goods and services available through technology. </p>
-            <p>Digital technologies have changed the world, and have its influence in every aspect of socioeconomic life of human being. From agriculture to rocket science, every category of human activities has got a pace and a new benchmark of success embracing digital technologies. These technologies have entered into such a deep level of socioeconomic activities and have transformed the society to such a new shape; virtually nobody can think life without it. Unfortunately, the reality is, all human-being in this Earth is not getting direct benefit out of these technologies, even in developed countries, because of the inability to access to this digital world. But, the question is why, and what are the long-term and short-term consequences of this equality?
-
-Lack of affordability and infrastructure, lack of motivation, inadequate knowledge and skills and lack of freedom is the main barrier to use these technologies. Poverty is pulling a group of people behind from these technologies as they cannot afford it. Because of business motive, infrastructures of these technologies are not available in every geographic location, especially in rural area. Many people do not get motivation to access to internet or computer because of language and cultural barrier. Besides, due to the lack of digital literacy, many people have taken them away from these technologies, who basically are not much encouraged to accept any change in their life. On the other hand, in many countries and societies, people do not enjoy real democracy and actual freedom to enrich their life and do not get access to new knowledge and facility.  
-
-In this concurrent world, access to information is the key to achieve meaningful success and grab opportunities. The new term, which is called “Information Poverty”, becomes the reason for an individual’s actual poverty. In education, workplace, social engagement, business, everywhere a divide is clearly visible between individuals. The individual who has the access to these technologies gets priority and achieves higher standards of living and improved social welfare than others. If this inequality continues, we will end up with having new societies where two distinct classes will exist with two different socio economic statuses.
-
-Because of Globalization and Socio-economic interdependency among different individuals, organization, businesses, professions, communities, areas, markets, territories, countries, regions etc., inequality to access to digital technology is not only just an individual’s or a group of people’s  problem but also a global problem like Poverty, Global Warming, Global Financial Crisis, Racism etc. Inability to access to digital technology enhances global problems like poverty, financial crisis, racism, health issues etc. Because, all civic benefits and opportunities are transforming to be embedded with digital technology. So, who are enjoying the accessibility to this technology will suffer directly or indirectly in the long run because of absence of certain portion of people of society in uses of this technology. So, this is a global challenge to create privilege to accesses to digital technology to the next generation and to the group of individuals who are out of this facility globally. Uneven development of Internet connectivity throughout the World, some countries have fallen behind in technology, education, labor, democracy, and tourism. The global inequality also adds to the disparity of right to use goods and services available through technology. </p>
-           
-            
             </div>
         </div>
+            </div>
     </div>
 </asp:Content>

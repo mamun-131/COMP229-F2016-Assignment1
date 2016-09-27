@@ -83,21 +83,17 @@
         <div id="sidebar-wrapper" class="col-xs-1">
             <ul >
                
-                <li>
-                    <a href="#">My Linkdin</a>
+                <li runat="server"><a href="default.aspx">Home</a>
                 </li>
-                <li>
-                    <a href="#">My GitHub</a>
+                <li runat="server"><a href="Services.aspx">My Services</a>
                 </li>
-                <li>
-                    <a href="#">My FaceBook</a>
+                <li runat="server"><a href="Biography.aspx">My Biography</a>
                 </li>
-                <li>
-                    <a href="#">My Flickr</a>
+                <li runat="server"><a href="Projects.aspx">My Projects</a>
                 </li>
-                <li>
-                    <a href="#">My Pixoto</a>
+                <li runat="server"><a href="Contact.aspx">My Contact</a>
                 </li>
+
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -132,15 +128,15 @@
 
 
 
-</body>
+
     <div id="footerbar" class="navbar navbar-default navbar-fixed-bottom">
-         <span id ="copyright"><small>MD MAMUNUR RAHMAN © Copyright 2014, All Rights Reserved</small></span>
+         <span id ="copyright"><small>MD MAMUNUR RAHMAN © Copyright 2016, All Rights Reserved</small></span>
         <footer>
             <div class="col-md-12 footer">
 
 
         <nav id="footer" class="navbar navbar-fixed-bottom">
-                     <span id ="copyright"><small>MD MAMUNUR RAHMAN © Copyright 2014, All Rights Reserved</small></span>
+                     <span id ="copyright"><small>MD MAMUNUR RAHMAN © Copyright 2016, All Rights Reserved</small></span>
             <div >  
                 <ul class="nav navbar-nav navbar-right ">
                        
@@ -158,4 +154,5 @@
                 </div>
         </footer>
     </div>
+    </body>
 </html>

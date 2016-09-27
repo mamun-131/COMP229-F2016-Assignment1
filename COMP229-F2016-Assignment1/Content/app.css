@@ -41,18 +41,41 @@
 }
 
 .navbar-default .navbar-brand {
-        color: #fec303;
+        color:rgba(248,190,192,1);
         text-shadow:2px 2px 2px #000;
 
 
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-        color: rgba(248,190,192,1);
+        color:  #fec303;
     text-shadow:1px 1px 1px #00ffff;
 
 }
+.navbar.navbar-default .dropdown-menu > li > a:hover,
+.navbar.navbar-default .dropdown-menu > li > a:focus {
 
+           color: #000000;
+    background: rgba(34,132,145,1);
+        text-shadow:1px 1px 1px #808080;
+ 
+
+}
+.navbar.navbar-default .dropdown-menu,
+.navbar.navbar-default .dropdown-menu > li,
+.navbar.navbar-default .dropdown-menu > li > a
+ {
+  background: rgba(87, 100, 128,1);
+  color: #eef9fa;
+  text-shadow:1px 1px 1px #000;
+         
+}
+.navbar.navbar-default .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.open.active > .dropdown-toggle {
+  background: rgba(87, 100, 128,1);
+  color: #eef9fa;
+}
 #sidebar-wrapper {
     width: 180px;
     margin-top: 10px;
@@ -69,7 +92,7 @@
 #sidebar-wrapper a:link , #sidebar-wrapper a:visited , #sidebar-wrapper a:active
 {
     display: block;
-     color:aqua;
+     color:#adf4f6;
     text-decoration: none;
 
 }
@@ -164,6 +187,7 @@ padding-left: 40px;
    text-align:center;
    padding-top:10px;
    padding-left:5px;
+   color:white;
 
 }
 
@@ -203,7 +227,7 @@ padding-left: 40px;
 .table table-bordered  {
     border-width:4px;
     border-style: solid;
-    border-color: gray;
+    border-color: rgba(121,142,163,1);
     text-shadow: 1px 1px 1px cyan;
 }
 .navbar navbar-default navbar-fixed-bottom{
@@ -220,18 +244,39 @@ padding-left: 40px;
 	padding-top:0px;
     background-color: rgb(150, 153, 204);
     font-family: Tahoma;
-    background: -webkit-gradient(linear, right top, left top, color-stop(0%,gray), color-stop(100%,lightgray));
-    background: linear-gradient(to left, gray,  lightgray);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgba(170,181,191,1)), color-stop(100%,rgba(121,142,163,1)));
+    background: linear-gradient(to left, rgba(170,181,191,1),  rgba(121,142,163,1));
     border-radius: 20px;
     overflow: hidden;
- 	opacity: 0.*7;
-    filter: alpha(opacity=70);
-    
-    color: black;
-     text-shadow: 1px 1px  #ccffff;
+ 	opacity: 0.99;
+    filter: alpha(opacity=99);
+  
+    color: white;
+     text-shadow: 1px 1px 1px  black;
      padding-left: 30px;
 	 
 }
+.photobook1 {
+	margin-left: 10px;
+	float: left;
+	width: 98%;
+	height:100%;
+	padding-top:0px;
+    background-color: rgb(150, 153, 204);
+    font-family: Tahoma;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#293955), color-stop(100%,rgb(82, 99, 116)));
+    background: linear-gradient(to left, #293955),  rgba(82,99,116,1));
+    border-radius: 20px;
+    overflow: hidden;
+ 	opacity: 0.99;
+    filter: alpha(opacity=99);
+    text-align:center;
+    color: cyan;
+    text-shadow: 1px 1px  black;
+     padding-left: 30px;
+	 
+}
+
 .mamunImage
 {
     width:80%;height:90%;
@@ -292,7 +337,65 @@ font-size: 20px;
 }
 }
 @media (max-width: 990px) {
-    .mamunImage{
-    height:140px;
-    width:140px;
+    .mamunImage {
+        height: 140px;
+        width: 140px;
+    }
+}
+
+.redcircle {
+	width: 360px;
+	height: 300px;
+	background: rgba(101,142,163,1);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        padding-left:5px;
+    padding-top:5px;
+}
+.whitecircle {
+
+	width: 310px;
+	height: 250px;
+	background: #dde7ee;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    padding-right:20px;
+    padding-top:5px;
+    color:black;
+       text-shadow: 1px 1px 1px  rgb(0, 255, 255);
+
+
+}
+.whitecircle ul {
+    position:absolute;
+    top: 10px; 
+   left: 15px; 
+    width:100%
+
+  
+}
+.imgservice{
+    padding-left:20px;
+    position:relative;
+    opacity:0.20;
+    width:90%
+    
+}
+
+.servicetitle{
+    color:white;
+      text-shadow: 1px 1px 1px  black;
+    padding-left:50px;
+}
+.jumbotron{
+    color:black;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgba(121,142,163,1)), color-stop(100%, rgba(248,190,192,1)));
+    background: linear-gradient(to left, rgba(121,142,163,1),  rgba(248,190,192,1));
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px  white;
+}
+.btn btn-primary btn-lg{
+    background-color:rgba(121,142,163,1);
 }

@@ -30,6 +30,8 @@ namespace COMP229_F2016_Assignment1.Pages
 
             addProject(1,projectName,projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
+            
+
             projectName = "MOVIE BONANZA";
             projectImage = "moviebonanza.jpg";
             projectUrl = "https://github.com/300872772/COMP123-S2016-Assignment7";
@@ -120,10 +122,11 @@ namespace COMP229_F2016_Assignment1.Pages
             Table table = new Table { CssClass = "table table-bordered ",
                 BorderWidth = 4,
                 BorderStyle = BorderStyle.Solid,
-                BorderColor = System.Drawing.Color.Gray, BackColor = System.Drawing.Color.WhiteSmoke
+                BorderColor = System.Drawing.Color.FromArgb(121, 142, 163),
+                BackColor = System.Drawing.Color.WhiteSmoke
             };
             
-            TableRow row1 = new TableRow { BackColor = System.Drawing.Color.LightGray };
+            TableRow row1 = new TableRow { BackColor = System.Drawing.Color.FromArgb(170, 181, 191) };
             TableRow row2 = new TableRow();
 
             //Create 6 cells for Row row1
@@ -222,7 +225,7 @@ namespace COMP229_F2016_Assignment1.Pages
                 {  CssClass = "table table-bordered ",
                     BorderWidth = 4,
                     BorderStyle = BorderStyle.Solid,
-                    BorderColor = System.Drawing.Color.Gray
+                    BorderColor = System.Drawing.Color.FromArgb(121, 142, 163)
                 };
                 TableRow row1rowAlt1 = new TableRow(); row1rowAlt1.Cells.Add(row1_c1);
                 TableRow row1rowAlt2 = new TableRow(); row1rowAlt2.Cells.Add(row2_c1);
