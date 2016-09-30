@@ -4,11 +4,39 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+/**
+ * This is a mini profile extended web application which is all about Md Mamunur Rahman 
+ * 
+ * @FileName: Projects.aspx.cs
+ * @Author Md Mamunur Rahman
+ * @student ID: 300872772
+ * @Last Update 30-September-2016
+ * @website: http://mamun-portfolio.azurewebsites.net/Default.aspx
+ * @description: this file is main cs file for the website
+ */
 namespace COMP229_F2016_Assignment1.Pages
 {
+    /**  
+ * <summary>  
+ * This is the Products class for Products page.  
+ * </summary>  
+ *   
+ * @class Products  
+ */
     public partial class Products : System.Web.UI.Page
     {
+
+        //PROTECTED METHODES++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        /**
+        * <summary>
+        * This is the protected method for for loading Contact page code
+        * </summary>
+        * 
+        * @method Page_Load
+        * @returns {void} 
+        * @param {object} sender
+        * @param {EventArgs} e
+        */
         protected void Page_Load(object sender, EventArgs e)
         {
             String projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl;
@@ -76,7 +104,24 @@ namespace COMP229_F2016_Assignment1.Pages
 
 
         }
+        /**
+ * <summary>
+ * This is the privte method for add project page components in page
+ * </summary>
+ * 
+ * @method addProject
+ * @returns {void} 
+ * @param {int} index
+ * @param {string} projectName
+ * @param {string} projectImage
+ * @param {string} projectUrl
+ * @param {string} gitHubUrl
+ * @param {string} webSiteUrl
+ * @param {string} programingLanguage
+ * @param {string} framework
+ * @param {string} database
 
+ */
         private void addProject(int index, String projectName, String projectImage,String projectUrl,String gitHubUrl,String webSiteUrl,
             String projectDetail, String programingLanguage, String framework, String database) {
 

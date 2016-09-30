@@ -1,19 +1,21 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="COMP229_F2016_Assignment1.Default1" %>
 
+
+ 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-1 col-md-11">
+            <div class=" col-md-offset-1 col-md-11">
  <div class="jumbotron">
       <div class="container">
-        <h1 id="topHead">MD MAMUNUR RAHMAN</h1>
+        <h1 >MD MAMUNUR RAHMAN</h1>
           <h3>Software Developer</h3>
           
          
         <p><a class="btn btn-primary btn-lg" href="Biography.aspx" role="button">Learn more &raquo;</a></p>
            <h5>An innovative and passionate Software developer. 
           Like to play with logic, problems and different kind 
-          of alternatives of solutions...........</h5>
+          of alternative solutions...........</h5>
            </div>
     </div>
 
@@ -22,7 +24,7 @@
       <div class="row">
         <div id="service" class="col-md-6">
           <h2>Services</h2>
-            <img src="Assets/service.jpg" alt="Alternate Text" />
+            <img src="Assets/service.jpg" alt="Alternate Text" class='responsive-width'/>
        
           <p>One-stop service for a complete business software solution............
                </p>
@@ -36,7 +38,7 @@
         </div>
         <div class="col-md-5">
           <h2>Projects</h2>
-            <img src="Assets/project.jpg" alt="Alternate Text" />
+            <img src="Assets/project.jpg" alt="Alternate Text" class='responsive-width'/>
           <p>Diversified developed project is for building your confidence......... </p>
             <ul>   
              <li>Online Grocery Sales Solution </li>

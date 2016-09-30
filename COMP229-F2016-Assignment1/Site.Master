@@ -1,10 +1,13 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_F2016_Assignment1.Site" %>
 
 <!DOCTYPE html>
-<!-- Name: Md Mamunur Rahman -->
-<!-- ID: 300872772 -->
-<!-- Date: Sep 20, 2016 -->
-<!-- Default.aspx file -->
+<!-- This is a mini profile extended web application which is all about Md Mamunur Rahman -->
+<!-- @FileName: Site.Marter.aspx-->
+<!-- @Author Md Mamunur Rahman-->
+<!-- @student ID: 300872772-->
+<!-- @Last Update 30-September-2016-->
+<!-- @website: http://mamun-portfolio.azurewebsites.net/Default.aspx -->
+<!-- @description: this file is main aspx file for the website-->
 
 <html lang="en">
 <head runat="server">
@@ -80,7 +83,7 @@
          <!-- Sidebar -->
    
 
-        <div id="sidebar-wrapper" class="col-xs-1">
+        <div id="sidebar-wrapper">
             <ul >
                
                 <li runat="server"><a href="default.aspx">Home</a>
@@ -103,7 +106,7 @@
 
 
         <!-- Page Content -->
-        <div id="page-content-wrapper" >
+        <div id="page-content-wrapper">
             <div class="container-fluid">
 
 
