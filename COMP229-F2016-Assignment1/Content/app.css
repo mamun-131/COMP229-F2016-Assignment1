@@ -158,10 +158,6 @@ padding-left: 40px;
 
 
 
-
-
-
-
 #page-content-wrapper {
     padding-top: 60px;
     padding-left: 30px;
@@ -233,7 +229,17 @@ padding-left: 40px;
 
         text-shadow: 1px 1px 1px #420505;
 }
+.containerDecoration> a:active {
+        color:  cyan;
 
+        text-shadow: 1px 1px 1px #420505;
+}
+
+.containerDecoration> a:hover {
+        color:  cyan;
+
+        text-shadow: 1px 1px 1px #420505;
+}
 
 .table table-bordered  {
     border-width:4px;
@@ -344,11 +350,15 @@ padding-left: 40px;
 	}
         
     .responsive-width {
-    font-size: 2.8vw;
+    font-size: 3.6vw;
     }
+        #page-content-wrapper{
+
+            padding:0px;
+        }
 
     #page-content-wrapper,#page-content-wrapper> ul> li, .photobook{
-    font-size: 2.8vw;
+    font-size: 3.6vw;
     margin-left:0px;
     }
  .allabout {
@@ -431,7 +441,6 @@ font-size: 20px;
     background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgba(121,142,163,1)), color-stop(100%, rgba(248,190,192,1)));
     background: linear-gradient(to left, rgba(121,142,163,1),  rgba(248,190,192,1));
     border-radius: 10px;
-   border-width:2px;
     border-color:black;
     text-shadow: 1px 1px 1px  black;
     background: url('../Assets/mamunHome.jpg')
@@ -442,4 +451,11 @@ font-size: 20px;
 
 .btn btn-primary btn-lg{
     background-color:rgba(121,142,163,1);
+}
+
+.container{
+    padding-right:0;
+    padding-left:0;
+    margin-right: auto;
+    margin-left: auto;
 }

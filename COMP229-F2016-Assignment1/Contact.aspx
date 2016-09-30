@@ -38,7 +38,7 @@
 						<a href="https://www.facebook.com/md.mamunur.rahman" target="_blank"><i class="fa fa-facebook fa-lg"></i>My Facebook</a><br>
 						<br>
 						Twitter:<br>
-						<a href="https://www.google.com" target="_blank"><i class="fa fa-twitter fa-lg"></i>My Twitter</a><br>
+						<a href="https://twitter.com/mamun_131" target="_blank"><i class="fa fa-twitter fa-lg"></i>My Twitter</a><br>
 						<br>
 						Linkdin:<br>
 						<a href="https://www.linkedin.com/in/md-mamunur-rahman-31a6375?trk=nav_responsive_tab_profile_pic" 
