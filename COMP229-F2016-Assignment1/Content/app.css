@@ -196,7 +196,7 @@ body {
 
 
 .containerDecoration {
-    margin-left: 2px;
+    margin:1px;
     float: left;
     width: 98%;
     height: 100%;
@@ -361,7 +361,10 @@ body {
     }
 
     #page-content-wrapper {
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom:40px;
     }
 
         #page-content-wrapper, #page-content-wrapper > ul > li, .photobook {
