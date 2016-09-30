@@ -24,7 +24,7 @@
       <div class="row">
         <div id="service" class="col-md-6">
           <h2>Services</h2>
-            <img src="Assets/service.jpg" alt="Alternate Text" class='responsive-width'/>
+            <a href="Services.aspx"><img src="Assets/service.jpg" alt="Alternate Text" class='responsive-width'/></a>
        
           <p>One-stop service for a complete business software solution............
                </p>
@@ -38,7 +38,7 @@
         </div>
         <div class="col-md-5">
           <h2>Projects</h2>
-            <img src="Assets/project.jpg" alt="Alternate Text" class='responsive-width'/>
+           <a href="Projects.aspx"> <img src="Assets/project.jpg" alt="Alternate Text" class='responsive-width'/></a>
           <p>Diversified developed project is for building your confidence......... </p>
             <ul>   
              <li>Online Grocery Sales Solution </li>

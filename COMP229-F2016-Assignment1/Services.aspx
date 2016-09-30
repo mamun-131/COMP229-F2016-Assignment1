@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="row">
-            <div class="col-md-offset-1 col-md-12">
+            <div class="col-md-offset-1 col-md-11">
                 <h1>Services</h1>
                 <h4>One-stop service for a complete business software solution............</h4>
             </div>
