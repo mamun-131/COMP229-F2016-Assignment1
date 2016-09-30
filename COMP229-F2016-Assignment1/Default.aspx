@@ -12,7 +12,7 @@
           <h3>Software Developer</h3>
           
          
-        <p><a class="btn btn-primary btn-lg" href="Biography.aspx" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg responsive-width" href="Biography.aspx" role="button">Learn more &raquo;</a></p>
            <h5>An innovative and passionate Software developer. 
           Like to play with logic, problems and different kind 
           of alternative solutions...........</h5>
