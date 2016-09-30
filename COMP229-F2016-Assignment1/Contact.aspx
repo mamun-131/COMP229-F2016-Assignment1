@@ -116,7 +116,7 @@
 						</div>
 
 						<div class="text-right">
-						   
+						   <asp:Label id="emailConfirmation" runat="server"></asp:Label>
 						<asp:Button ID="sendButton" OnClick="sendButton_Click" CssClass="btn btn-primary" runat="server" Text="Submit" />
 							</div>
 					</div>

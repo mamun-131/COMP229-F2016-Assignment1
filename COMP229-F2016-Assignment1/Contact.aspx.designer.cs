@@ -58,6 +58,15 @@ namespace COMP229_F2016_Assignment1.Pages {
         protected global::System.Web.UI.WebControls.TextBox message;
         
         /// <summary>
+        /// emailConfirmation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label emailConfirmation;
+        
+        /// <summary>
         /// sendButton control.
         /// </summary>
         /// <remarks>
