@@ -41,7 +41,8 @@
 						<a href="https://www.google.com" target="_blank"><i class="fa fa-twitter fa-lg"></i>My Twitter</a><br>
 						<br>
 						Linkdin:<br>
-						<a href="https://www.linkedin.com/in/md-mamunur-rahman-31a6375?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin fa-lg"></i>My Linkedin</a><br>
+						<a href="https://www.linkedin.com/in/md-mamunur-rahman-31a6375?trk=nav_responsive_tab_profile_pic" 
+                            target="_blank"><i class="fa fa-linkedin fa-lg"></i>My Linkedin</a><br>
 						<br>
 					</div>
  

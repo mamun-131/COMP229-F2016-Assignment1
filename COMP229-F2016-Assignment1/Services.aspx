@@ -17,8 +17,9 @@
                             <li>Desktop application with C#, VB and Java Aplet or FX,</li>
                             <li>With Ocracle, SQL Server or MySQL Database.</li>
                             <li>Network based desktop application with socket programming.</li>
+                            <li>Data processing macro tool with VBA for Excel and Access.</li>
                             <li>Efficient architechtural desin to ensure optimum performance.</li>
-                            <li>Finance, HR, CRM, Customized Operation and any other customized module can be designed.</li>
+                            <li>Finance, HR, CRM, Customized module development.</li>
                         </ul>
                     </div>
                     <h4 class="servicetitle">Desktop Application </h4>
@@ -31,11 +32,12 @@
                     <div class="whitecircle responsive-width">
                          <img src="../Assets/web.jpg" class="imgservice">
                         <ul>
-                            <li>Desktop application with C#, VB and Java Aplet or FX,</li>
+                            <li>Web application with modern web development languages and technologies like
+                                ASP.NET C#, Java, JavaScript, AngularJS, CreatJS, HTML5,CSS3, Ajax, Bootstrap with MVC Framework</li>
                             <li>With Ocracle, SQL Server or MySQL Database.</li>
-                            <li>Network based desktop application with socket programming.</li>
+
                             <li>Efficient architechtural desin to ensure optimum performance.</li>
-                            <li>Finance, HR, CRM, Customized Operation and any other customized module can be designed.</li>
+                            <li>Finance, HR, CRM, Customized module development.</li>
                         </ul>
                     </div>
                     <h4 class="servicetitle">Web Application </h4>
@@ -47,11 +49,12 @@
                 <div class="whitecircle responsive-width">
                      <img src="../Assets/mobile.jpg" class="imgservice">
                         <ul>
-                            <li>Desktop application with C#, VB and Java Aplet or FX,</li>
-                            <li>With Ocracle, SQL Server or MySQL Database.</li>
-                            <li>Network based desktop application with socket programming.</li>
-                            <li>Data processing tool with VBA for Excel.</li>
-                            <li>Finance, HR, CRM, Customized Operation and any other customized module can be designed.</li>
+                            <li>Mobile application with Java for Android, Swift for iOS and Bootstrap
+                                 for web-based responsive mobile solution</li>
+                            <li>With Lite-SQL and server side Oracle, SQL Server or MySQL Database.</li>
+                            <li>API based data exchanged solution</li>
+                            
+                            <li>Excellent graphic design.</li>
                         </ul>
                 </div>
                     <h4 class="servicetitle">Moblie Application </h4>

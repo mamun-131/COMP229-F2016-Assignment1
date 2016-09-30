@@ -90,13 +90,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\favico.png" />
+    <Content Include="Assets\m.JPG" />
     <Content Include="Assets\logo1.svg" />
     <Content Include="Assets\mamun.jpg" />
+    <Content Include="Assets\mamunHome.jpg" />
     <Content Include="Assets\map.jpg" />
     <Content Include="Assets\moviebonanza.jpg" />
     <Content Include="Assets\myrasona.jpg" />
     <Content Include="Assets\personalsite.jpg" />
     <Content Include="Assets\photographer.jpg" />
+    <Content Include="Assets\service.jpg" />
+    <Content Include="Assets\project.jpg" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
