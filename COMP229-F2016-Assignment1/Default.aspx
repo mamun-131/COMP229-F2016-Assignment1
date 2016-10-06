@@ -22,7 +22,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div id="service" class="col-md-6">
+        <div id="service" class="col-md-6 service">
           <h2>Services</h2>
             <a href="Services.aspx"><img src="Assets/service.jpg" alt="Alternate Text" class='responsive-width'/></a>
        
@@ -36,7 +36,7 @@
          
              <p><a class="btn btn-default" href="Services.aspx" role="button">View details &raquo;</a></p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 project">
           <h2>Projects</h2>
            <a href="Projects.aspx"> <img src="Assets/project.jpg" alt="Alternate Text" class='responsive-width'/></a>
           <p>Diversified developed project is for building your confidence......... </p>
