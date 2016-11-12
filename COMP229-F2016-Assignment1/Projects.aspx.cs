@@ -58,7 +58,8 @@ namespace COMP229_F2016_Assignment1.Pages
 
             addProject(1,projectName,projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
-            
+        https://drive.google.com/open?id=0B23MnfU6i1v3UFp2ZU1UVDkyLTg
+
 
             projectName = "MOVIE BONANZA";
             projectImage = "moviebonanza.jpg";
@@ -68,6 +69,28 @@ namespace COMP229_F2016_Assignment1.Pages
             projectDetail = "This is an online movie streaming selling solution desktop version,"+
                 " has been developed using C#.";
             programingLanguage = "C#";
+            framework = "";
+            database = "Text coma delaminated data";
+            addProject(2, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+
+            projectName = "HALLOWEN ATTACK";
+            projectImage = "halloweenAttack.png";
+            projectUrl = "https://drive.google.com/open?id=0B23MnfU6i1v3UFp2ZU1UVDkyLTg";
+            gitHubUrl = "https://github.com/300872772/COMP305-PlatformerGames";
+            webSiteUrl = "https://github.com/300872772/WebGL-PlatformerGame";
+            projectDetail = "2D Platformer game, has been developed using Unity C#.";
+            programingLanguage = "Unity C#";
+            framework = "";
+            database = "Text coma delaminated data";
+            addProject(2, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+
+            projectName = "FIGHT FOR COLORS";
+            projectImage = "shooterGame.png";
+            projectUrl = "https://github.com/300872772/COMP305-F2016-Ass1-WebGL";
+            gitHubUrl = "https://github.com/300872772/COMP305-F2016-Assignment1";
+            webSiteUrl = "http://mamun-unitygame.azurewebsites.net/";
+            projectDetail = "2D Retro Shooter game, has been developed using Unity C#.";
+            programingLanguage = "Unity C#";
             framework = "";
             database = "Text coma delaminated data";
             addProject(2, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);

@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Assets\desktop.jpg" />
     <Content Include="Assets\favico.png" />
+    <Content Include="Assets\halloweenAttack.png" />
     <Content Include="Assets\m.JPG" />
     <Content Include="Assets\logo1.svg" />
     <Content Include="Assets\mamun.jpg" />
@@ -103,6 +104,7 @@
     <Content Include="Assets\photographer.jpg" />
     <Content Include="Assets\service.jpg" />
     <Content Include="Assets\project.jpg" />
+    <Content Include="Assets\shooterGame.png" />
     <Content Include="Assets\web.jpg" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
