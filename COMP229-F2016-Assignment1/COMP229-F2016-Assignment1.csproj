@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Assets\desktop.jpg" />
     <Content Include="Assets\favico.png" />
+    <Content Include="Assets\GameTracker.PNG" />
     <Content Include="Assets\halloweenAttack.png" />
     <Content Include="Assets\m.JPG" />
     <Content Include="Assets\logo1.svg" />
