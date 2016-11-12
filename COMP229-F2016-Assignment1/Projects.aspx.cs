@@ -92,7 +92,7 @@ namespace COMP229_F2016_Assignment1.Pages
             programingLanguage = "Unity C#";
             framework = "";
             database = "Text coma delaminated data";
-            addProject(3, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+            addProject(4, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
             projectName = "FIGHT FOR COLORS";
             projectImage = "shooterGame.png";
@@ -103,7 +103,7 @@ namespace COMP229_F2016_Assignment1.Pages
             programingLanguage = "Unity C#";
             framework = "";
             database = "Text coma delaminated data";
-            addProject(4, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+            addProject(5, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
 
             projectName = "PORTFOLIO";
@@ -117,7 +117,7 @@ namespace COMP229_F2016_Assignment1.Pages
             programingLanguage = "Java Script, Type Script, Jquery, CreateJS, CSS, HTML";
             framework = "Bootstrap, Font-awesome";
             database = "Text API";
-            addProject(5, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+            addProject(6, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
 
             projectName = "PHOTOGRAPHY";
@@ -131,7 +131,7 @@ namespace COMP229_F2016_Assignment1.Pages
             programingLanguage = "CSS, HTML";
             framework = "";
             database = "";
-            addProject(6, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
+            addProject(7, projectName, projectImage, projectUrl, gitHubUrl, webSiteUrl, projectDetail, programingLanguage, framework, database);
 
 
 
